@@ -25,15 +25,23 @@
 https://github.com/polina22022/-/blob/main/lab_2_schema.png
 
 ## 2. Реализация программы
+
 #define _CRT_SECURE_NO_DEPRECATE
+
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #define _USE_MATH_DEFINES
+
 #include <math.h>
+
 #include <locale.h>
 
 float area_triangle(float a, float b, float c);
+
 void draw_triangle(int a);
+
 void name(int a);
 
 int main() {
@@ -115,6 +123,7 @@ void name(int a) {
 2. Нарисовать треугольник
 3. Описание треугольника
 Ваш выбор: 1
+
 Площадь треугольника: 6,00
 Введите длины сторон треугольника:
 Сторона A: 3
