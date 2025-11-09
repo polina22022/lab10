@@ -82,22 +82,36 @@ int main() {
 }
 
 float area_triangle(float a, float b, float c) {
+
     float p = (a + b + c) / 2;
+    
     float area = sqrt(p * (p - a) * (p - b) * (p - c));
+    
     return area;
+    
 }
 
 void draw_triangle(int a) {
+
     printf("\n");
+    
     for (int i = 1; i <= a; i++) {
+    
         for (int j = 1; j <= a - i; j++) {
+        
             printf("  ");
+            
         }
+        
         for (int j = 1; j <= i; j++) {
+        
             printf("* ");
+            
         }
+        
         printf("\n");
     }
+    
     printf("\n");
 }
 
