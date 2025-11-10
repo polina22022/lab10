@@ -49,8 +49,11 @@ void draw_triangle(int a);
 void name(int a);
 
 int main() {
+
     int choice2;
+    
     float a, b, c;
+    
     setlocale(LC_ALL, "RUS");
 
     printf("Введите длины сторон треугольника:\n");
